@@ -9,5 +9,6 @@ package problem1.node;
 public class TreeNode {
     public int value;
 public TreeNode left;
+public TreeNode right;
 
 }
