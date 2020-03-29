@@ -7,16 +7,8 @@ public class MyBinarySearchTree {
     public TreeNode root;
     public int c = 0;
     int i = 1;
-    int j=1;
 
-   public void insert(int value) {
-        TreeNode node = new TreeNode(value);
-        if (root == null) {
-            root = node;
-        } else {
-            insertRec(root, node);
-        }
-    }
+    int j=1;
 
     private void insertRec(TreeNode latestRoot, TreeNode node) {
         if (latestRoot.value > node.value) {
@@ -53,6 +45,15 @@ public class MyBinarySearchTree {
     public void printPostorder() {
         printPostOrderRec(root);
         System.out.println("");
+    }
+
+   public void insert(int value) {
+        TreeNode node = new TreeNode<>(value);
+        if (root == null) {
+            root = node;
+        } else {
+            insertRec(root, node);
+        }
     }
 
     private void printPostOrderRec(TreeNode currRoot) {

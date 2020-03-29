@@ -6,7 +6,7 @@
  */
 package problem1.node;
 
-public class TreeNode {
+public class TreeNode<T> {
     public int value;
     public TreeNode left;
     public TreeNode right;
