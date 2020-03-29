@@ -10,6 +10,8 @@ import problem3.node.Node;
 
 public class MyPriorityQueue<E> {
 private Node<E> front;
+private Node<E> rear;
+
 
 
 }
