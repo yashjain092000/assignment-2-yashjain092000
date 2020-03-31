@@ -17,5 +17,10 @@ public class Node {
     public void setNext(Node next) {
         this.next = next;
     }
+    public Node()
+    {
+        s=new Student();
+        next=null;
+    }
 }
 
