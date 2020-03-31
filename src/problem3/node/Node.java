@@ -11,5 +11,8 @@ public class Node {
     private Student s;
     private  Node next;
 
+    public Student getS() {
+        return s;
+    }
 }
 
