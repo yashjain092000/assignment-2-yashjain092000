@@ -6,13 +6,5 @@
  */
 package problem3.myqueue;
 
-import problem3.node.Node;
-
-public class MyPriorityQueue<E> {
-private Node<E> front;
-private Node<E> rear;
-private int size;
-
-
-
+public class MyPriorityQueue {
 }
