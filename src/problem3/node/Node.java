@@ -22,5 +22,12 @@ public class Node {
         s=new Student();
         next=null;
     }
+    public void setS(Student s) {
+        this.s = s;
+    }
+
+    public Node getNext() {
+        return next;
+    }
 }
 
